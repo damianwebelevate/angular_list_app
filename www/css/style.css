@@ -1,0 +1,77 @@
+.first{
+max-width: 100%;
+min-width: 230px;
+border-collapse: collapse;  
+}
+.second{
+max-width: 100%;
+min-width: 230px;
+border-collapse: collapse;  
+border: 1px solid gray;
+}
+
+.second td, th{
+padding: 5px;
+border: 1px solid gray;
+text-align: justify;
+}
+
+.header{
+width: 100%;
+background: green;
+color: white;
+text-align: center;
+padding: 5px;
+font-size: 2em;
+}
+
+.container{
+margin-right: 10px;
+background-size: cover;
+}
+
+.add{
+background: green;
+color: white;
+border: 1px solid yellow;
+}
+
+.add, a{
+color: white;
+text-decoration: none;
+}
+
+.add, a:hover{
+color: yellow;
+}
+
+.delete{
+background: red;
+color: white;
+border: 1px solid black;
+}
+
+.delete, a{
+color: white;
+text-decoration: none;
+}
+
+.delete, a:hover{
+color: black;
+}
+
+.footer{
+width: 100%;
+background: green;
+margin-top: 50px;
+position: bottom;
+min-height: 2em;
+padding: 5px;
+bottom: 0px;
+}
+
+button{
+border-radius: 3px;
+font-weight: bolder;
+padding: 4px;
+}
