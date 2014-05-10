@@ -9,7 +9,7 @@
     <name>TODO Application</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        A simple list application using angularjs as a templating engine
     </description>
 
 	<!--leave in original author credits-->
