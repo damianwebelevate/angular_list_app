@@ -1,12 +1,14 @@
+<!--Damian O'Rourke
+Angular Application for
+phonegap build-->
+
 <!DOCTYPE html>
-<html ng-app>
+<html data-ng-app="todolist">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 
-<script src="js/angular.js"></script>
 
-<script src="js/controller.js"></script>
 
 <script src="phonegap.js"></script>
 
@@ -16,10 +18,7 @@
 
 </style>
 </head>
-<body>
-
-
-<div class="container" data-ng-controller="ToDoController" >
+<body data-ng-controller="ToDoController" >
 <h1 class="header">To Do List Application</h1>
 <p>Use the form to add your entry below</p>
 
@@ -55,8 +54,14 @@
 <th style="width: 20%;">Title</th>
 <th colspan="2">Details</th>
 </tr>
-<tr data-ng-repeat="somename in ToDo" ><th>{{somename.Task}} </th><td>  {{somename.Details}} </td><td><button class="delete" data-ng-click="removeItem($index)"><a href="#">Delete</a></button></td></tr></tbody></table>
+<tr data-ng-repeat="item in items" ><th>{{item.Task}} </th><td>  {{item.Details}} </td><td><button class="delete" data-ng-click="removeItem($index)"><a href="#">Delete</a></button></td></tr></tbody></table>
 <br />
+
+<script src="js/angular.min.js"></script>
+
+<script src="js/controller.js"></script>
+
+
 <div class="footer"></div>
 
 </div>

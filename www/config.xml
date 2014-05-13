@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.digitalskillsacademy.TODO-App"
-        version   = "1.1.1">
+        version   = "1.2.0">
 
     <name>TODO Application</name>
 
@@ -12,7 +12,7 @@
         A simple list application using angularjs as a templating engine
     </description>
 
-    <author href="#" email="damian.orourke@webelevate.ie">
+    <author href="damian.orourke@webelevate.ie" email="damian.orourke@webelevate.ie">
         Damian O'Rourke
     </author>
 
